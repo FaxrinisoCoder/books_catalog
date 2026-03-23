@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "books_catalog"
+version = "0.1.0"
+description = "A Django project for managing a book catalog"
+requires-python = ">=3.8"
+dependencies = ["django>=3.2"]
+
+[tool.django]
+app = "config.wsgi:application"
